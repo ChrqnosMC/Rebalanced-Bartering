@@ -1,1 +1,1 @@
-tellraw @a ["",{"text":"Rebalanced Bartering datapack has been reloaded","bold":true,"color":"white"}]
+tellraw @a ["",{"text":"Rebalanced Bartering datapack has been reloaded"}]
