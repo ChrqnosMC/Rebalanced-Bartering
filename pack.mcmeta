@@ -1,23 +1,23 @@
 {
 	"pack": {
-		"pack_format": 81,
-    	"supported_formats": [45,81],
+		"pack_format": 88,
+    	"supported_formats": [45,88],
+		"min_format": [45,0],
+		"max_format": [88,0],
 		"description": "Rebalanced Bartering"
 	},
 	"overlays": {
 		"entries": [
 			{
-				"formats": {
-					"min_inclusive": 45,
-					"max_inclusive": 74
-				},
+				"formats": [45,74],
+				"min_format": [45,0],
+				"max_format": [74,0],
 				"directory": "overlay_45"
 			},
 			{
-				"formats": {
-					"min_inclusive": 75,
-					"max_inclusive": 81
-				},
+				"formats": [75,88],
+				"min_format": [75,0],
+				"max_format": [88,0],
 				"directory": "overlay_75"
 			}
 		]
